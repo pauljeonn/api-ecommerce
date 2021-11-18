@@ -24,6 +24,12 @@ app.use('/api/products', productRoute);
 app.use('/api/carts', cartRoute);
 app.use('/api/orders', orderRoute);
 
+app.use(express.static(path.join(__dirname, '/react-ecommerce/build')));
+
+app.get('*', (req, res) => {
+	res.sendFile(path.join(__dirname, '/react-ecommerce/build', 'index.html'));
+});
+
 app.listen(process.env.PORT || 4000, () => {
 	console.log('Backend server is running!');
 });
