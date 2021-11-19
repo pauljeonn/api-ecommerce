@@ -3,7 +3,7 @@ const Product = require('../models/Product');
 const { verifyTokenAndAdmin } = require('./verifyToken');
 
 // CREATE
-router.post('/', verifyTokenAndAdmin, async (req, res) => {
+router.post('/', async (req, res) => {
 	const newProduct = new Product(req.body);
 
 	try {
@@ -55,6 +55,7 @@ router.get('/find/:id', async (req, res) => {
 router.get('/', async (req, res) => {
 	const qNew = req.query.new;
 	const qCategory = req.query.category;
+	console.log(qNew, qCategory);
 
 	try {
 		let products;
@@ -68,6 +69,7 @@ router.get('/', async (req, res) => {
 			});
 		} else {
 			products = await Product.find();
+			console.log('Get all products');
 		}
 
 		res.status(200).json(products);
