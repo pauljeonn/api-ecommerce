@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA,EACC,6BAA+B,CAC/B,QAAS,CACT,0BACD","file":"main.1d67dba3.chunk.css","sourcesContent":["* {\n\tfont-family: 'Lato', sans-serif;\n\tmargin: 0;\n\toverscroll-behavior-y: none;\n}\n"]}
