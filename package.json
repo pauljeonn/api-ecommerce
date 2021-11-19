@@ -6,9 +6,7 @@
 	"engines": {
 		"node": "14.17.1"
 	},
-	"scripts": {
-		"start": "nodemon index.js"
-	},
+	"scripts": {},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
