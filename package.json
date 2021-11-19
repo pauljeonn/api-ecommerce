@@ -6,7 +6,9 @@
 	"engines": {
 		"node": "14.17.1"
 	},
-	"scripts": {},
+	"scripts": {
+		"start": "node index.js"
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
