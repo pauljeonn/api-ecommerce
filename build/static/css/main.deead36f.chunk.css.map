@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA,EACC,qCAAuC,CACvC,QAAS,CACT,wBAAyB,CAAzB,wBACD","file":"main.deead36f.chunk.css","sourcesContent":["* {\n\tfont-family: 'Noto Sans KR', sans-serif;\n\tmargin: 0;\n\toverscroll-behavior: none;\n}\n"]}
